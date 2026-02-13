@@ -31,7 +31,7 @@ function initSlider(){
 }
 
 function initLoveTimer(){
-    const startDate=new Date("2023-01-01") // GANTI TANGGAL JADIAN
+    const startDate=new Date("2023-04-02") // GANTI TANGGAL JADIAN
     setInterval(()=>{
         const now=new Date()
         const diff=now-startDate
