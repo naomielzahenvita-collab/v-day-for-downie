@@ -1,31 +1,31 @@
 const gifStages = [
-    "https://media.tenor.com/EBV7OT7ACfwAAAAj/u-u-qua-qua-u-quaa.gif",    // 0 normal
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAd/chiikawa-hachiware.gif",  // 1 confused
-    "https://media.tenor.com/f_rkpJbH1s8AAAAj/somsom1012.gif",             // 2 pleading
-    "https://media.tenor.com/OGY9zdREsVAAAAAj/somsom1012.gif",             // 3 sad
-    "https://media1.tenor.com/m/WGfra-Y_Ke0AAAAd/chiikawa-sad.gif",       // 4 sadder
-    "https://media.tenor.com/CivArbX7NzQAAAAj/somsom1012.gif",             // 5 devastated
-    "https://media.tenor.com/5_tv1HquZlcAAAAj/chiikawa.gif",               // 6 very devastated
-    "https://media1.tenor.com/m/uDugCXK4vI4AAAAC/chiikawa-hachiware.gif"  // 7 crying runaway
+    "https://media.tenor.com/mbsKdEmx9V0AAAAj/bubu-cute-bubu-adorable.gif",    // 0 normal
+    "https://media1.tenor.com/m/ngqLF_od33QAAAAC/bubu-bubu-cute.gif",  // 1 confused
+    "https://media1.tenor.com/m/9fscv__vkukAAAAC/dudu-bubu-dudu-bubu-love.gif",             // 2 pleading
+    "https://media.tenor.com/qjKNkZZlF-4AAAAi/bubu-dudu-sseeyall.gif",             // 3 sad
+    "https://media.tenor.com/VfTJk4K1NWkAAAAi/mimibubu.gif",       // 4 sadder
+    "https://media.tenor.com/Eg9AvPQstIUAAAAi/bubu-bubu-sad.gif",             // 5 devastated
+    "https://media.tenor.com/qL8VaSflxn0AAAAi/choco.gif",               // 6 very devastated
+    "https://media.tenor.com/0Xr-5-SbieQAAAAi/bubududu-panda.gif"  // 7 crying runaway
 ]
 
 const noMessages = [
-    "No",
-    "Are you positive? 🤔",
-    "Pookie please... 🥺",
-    "If you say no, I will be really sad...",
-    "I will be very sad... 😢",
+    "Moh",
+    "Tenanee 🤔",
+    "hiks 🥺",
+    "Kok emoh sih, sedih...",
+    "sedih banget loch... 😢",
     "Please??? 💔",
-    "Don't do this to me...",
-    "Last chance! 😭",
-    "You can't catch me anyway 😜"
+    "kok ngonoo...",
+    "kesempatan terakhir 😭",
+    "wlek 😜"
 ]
 
 const yesTeasePokes = [
-    "try saying no first... I bet you want to know what happens 😏",
-    "go on, hit no... just once 👀",
-    "you're missing out 😈",
-    "click no, I dare you 😏"
+    "pencet moh sek... pintar to aku 😏",
+    "cepet pencet moh ogk 👀",
+    "ish 😈",
+    "awass koe 😏"
 ]
 
 let yesTeasedCount = 0
