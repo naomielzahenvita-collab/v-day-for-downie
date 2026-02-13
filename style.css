@@ -32,12 +32,26 @@ h1{color:#d63384;font-weight:900;}
 .gif-container img{width:180px;}
 
 .photo-frame{
-    width:150px;height:150px;border-radius:50%;
-    overflow:hidden;margin:15px auto;
-    box-shadow:0 0 30px rgba(255,105,180,0.7);
+    margin: 16px auto;
+    width: 180px;
+    height: 260px;              /* portrait frame */
+    border-radius: 20px;       /* rounded card */
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(255,105,180,0.5);
     animation: float 4s ease-in-out infinite;
+    border: 4px solid rgba(255,255,255,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.photo-frame img{width:100%;height:100%;object-fit:cover;}
+
+.photo-frame img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;         /* PENTING */
+    object-position: center;   /* CENTER FOTO */
+}
+
 
 @keyframes float{
     0%,100%{transform:translateY(0);}
